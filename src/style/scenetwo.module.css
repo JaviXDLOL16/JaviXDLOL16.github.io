@@ -1,0 +1,74 @@
+.divScenetwo {
+  width: 100%;
+  color: #f0f8ff;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerCenter {
+  display: flex;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 70%;
+  display: flex;
+  margin-left: 15%;
+}
+
+.containerData {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.letterTitle {
+  width: 100%;
+  text-align: center;
+  font-size: 3vw;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.letterInfo {
+  margin-top: 5vh;
+  text-align: center;
+  font-size: 1vw;
+  font-weight: lighter;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 70%;
+  padding-left: 15%;
+}
+
+.imageData {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoLetter {
+  margin-top: 5vh;
+  justify-content: space-evenly;
+  display: flex;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.infoLetter div {
+  text-align: center;
+}
+
+.infoLetter p {
+  color: #d78521;
+  font-size: 1.5vw;
+}
+
+.infoLetter b {
+  font-size: 1.7vw;
+}
+
+.collageImage {
+  width: 80%;
+  height: 30vw;
+  filter: drop-shadow(20px 0 30px rgba(0, 0, 0, 0.5));
+}
+
+
+

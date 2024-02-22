@@ -1,0 +1,47 @@
+.bannerImage {
+    width: 100%;
+    height: 18vw;
+    margin-top: 1.5vh;
+    position: relative;
+    box-shadow: 20px 0 30px rgba(0, 0, 0, 0.5);
+
+  }
+  
+  .containerImage{
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  }
+
+  .dataImage{
+    margin-top: 6vw;
+    position: absolute;
+    width: 70%;
+    display: flex;
+
+  }
+
+.dataText{
+width: 70%;
+text-align: center;
+}
+
+.dataText p{
+    font-size: 2.5vw;
+    color:#3f5e40 ;
+    margin-bottom: 1vw;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dataText b{
+font-size: 1.5vw;
+}
+
+.dataButton{
+width: 30%;
+display: flex;
+justify-content: center;
+align-items: center;
+}

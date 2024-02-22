@@ -1,0 +1,79 @@
+.containerScene{
+margin-top: 5vw;
+margin-bottom: 5vw;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.containerTitle{
+display: flex;
+color: #FAFBFA;
+font-size: 3vw;
+text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.containerTitle b{
+    color: #D78521;
+    margin-left: 1vw;
+}
+
+.containerCenter{
+display: flex;
+width: 70%;
+margin-top: 5vw;
+
+}
+
+.contRight{
+width: 50%;
+display: flex;
+flex-direction: column;
+}
+
+.contLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.imgFoodbanner{
+  width: 96%;
+  margin-bottom: 1vw;  
+}
+
+.imgfoodLittleOne{
+width: 48%;
+}
+
+.imgfoodLittleTwo{
+ width: 48%;
+}
+
+.conFoodLittleR{
+width: 96%;
+display: flex;
+justify-content: space-between;
+}
+
+.conFoodLittleL{
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgFoodbannerTwo{
+    width: 96%;
+    margin-top: 1vw;
+}
+
+.imgfoodLittleThree{
+width: 48%;
+}
+
+.imgfoodLittleFour{
+    width: 48%;
+    }

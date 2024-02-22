@@ -1,0 +1,34 @@
+.contScene{
+width: 80%;
+margin: auto;
+margin-bottom: 5vw;
+}
+
+.contTitle{
+display: flex;
+width: 100%;
+margin-bottom: 5vw;
+justify-content: center;
+color: #FAFBFA;
+font-size: 3vw;
+text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contTitle b{
+    color: #D78521;
+    margin-left: 1vw;    
+}
+
+.contImage{
+width: 100%;
+display: flex;
+justify-content:space-around;
+}
+
+.contImage div{
+width: 30%;
+}
+
+.contImage img{
+width: 100%;
+}

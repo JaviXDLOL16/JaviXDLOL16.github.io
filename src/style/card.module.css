@@ -1,0 +1,54 @@
+.divContainer{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 40vw;
+}
+
+.divCard{
+background-color: #26282c;
+width: 22%;
+margin-left: 1.25%;
+box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.1);
+margin-right: 1.25%;
+}
+
+.divCard:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease; 
+}
+
+.divIconcard{
+    display: flex;
+    color: #D78521;
+    font-size: 3vw;
+    justify-content: center;
+    padding-top: 4vh;
+    padding-bottom: 1vh; 
+}
+
+.divTitleCard{
+display: flex;
+text-align: center;
+color: #FAFBFA;
+font-size: 1.2vw;
+justify-content: center;
+padding-top: 1vw;
+padding-bottom: 2vw;
+}
+.divTitleCard b{
+color: #3f5e40;
+padding-left: 1vh;
+}
+
+.divTextCard{
+    text-align: center;
+color: #FAFBFA;
+font-size: 1.2vw;
+padding-bottom: 2vw;
+padding-left: 2vw;
+padding-right: 2vw;
+margin-bottom: 3vh;
+}
+

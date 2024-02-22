@@ -1,0 +1,87 @@
+.DivHeader {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    background: #D78521;
+    border: solid 1px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.Logo {
+    width: 10vh;
+    height: 10vh;
+    padding: 0.5vw;
+}
+
+.divLetterlogo {
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FAFBFA;
+    font-size: 1vw;
+    font-style: italic;
+}
+
+
+.divDataheader {
+    display: flex;
+    width: 40%;
+    justify-content: end;
+    align-items: center;
+    margin: 6vw;
+}
+
+.divDataheader p {
+    font-size: 1.2vw;
+    margin: 1.5%;
+    color: #FAFBFA;
+    font-style: bold;
+}
+
+.divIconheader{
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 5%;
+    color: #FAFBFA;
+    border-right: #FAFBFA solid 1.5px ;
+}
+
+.divIconheader ion-icon {
+    margin-right: 1vw ;
+    font-size: 1.5vw;
+}
+
+.divIconheader:hover{
+    cursor: pointer;
+}
+
+.divNumberheader{
+width: 12%;
+font-size: 0.8vw;
+display: flex;
+flex-wrap: wrap;
+color: #FAFBFA;
+align-content: center;
+padding-left: 1vw;
+}
+
+.divNumberheader ion-icon{
+    font-size: 1.5vw;
+    margin-right: 1vw;
+}
+
+.divNumberheader:hover{
+    cursor: pointer;
+}
+
+.divNumberheader p{
+    font-weight: 100;
+}
+
